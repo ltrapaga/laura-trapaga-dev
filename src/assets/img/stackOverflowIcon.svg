@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="64px" height="64px" fill-rule="nonzero"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none" stroke-linecap="none" stroke-linejoin="none" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+<g transform="scale(4,4)">
+<path d="M45,41v12h-28v-12h-5v17h38v-17z" fill="#faefde" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"></path>
+<rect x="-48" y="21" transform="rotate(-90)" width="4" height="20" fill="#faefde" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"></rect>
+<rect x="47.02956" y="18.63339" transform="rotate(-13.999)" width="4" height="20" fill="#8b8e98" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"></rect>
+<rect x="32.3586" y="28.1333" transform="rotate(-27)" width="4" height="20" fill="#a7aab5" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"></rect>
+<rect x="15.92553" y="34.09077" transform="rotate(-40.002)" width="4" height="20" fill="#f6e0bd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"></rect>
+<rect x="-1.42588" y="36.2" transform="rotate(-52.999)" width="4" height="20" fill="#f3dfc2" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"></rect>
+<rect x="-18.8085" y="34.34899" transform="rotate(-66.001)" width="4" height="20" fill="#fae7cb" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"></rect>
+<rect x="-35.32567" y="28.63774" transform="rotate(-79)" width="4" height="20" fill="#faefde" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"></rect>
+<path d="M45,41v12h-28v-12h-5v17h38v-17z" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+<rect x="-48" y="21" transform="rotate(-90)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="-48" y="21" transform="rotate(-90)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="-48" y="21" transform="rotate(-90)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="47.02956" y="18.63339" transform="rotate(-13.999)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="32.3586" y="28.1333" transform="rotate(-27)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="32.3586" y="28.1333" transform="rotate(-27)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="32.3586" y="28.1333" transform="rotate(-27)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="15.92553" y="34.09077" transform="rotate(-40.002)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="15.92553" y="34.09077" transform="rotate(-40.002)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="15.92553" y="34.09077" transform="rotate(-40.002)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="-1.42588" y="36.2" transform="rotate(-52.999)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="-1.42588" y="36.2" transform="rotate(-52.999)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="-1.42588" y="36.2" transform="rotate(-52.999)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="-18.8085" y="34.34899" transform="rotate(-66.001)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="-18.8085" y="34.34899" transform="rotate(-66.001)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="-18.8085" y="34.34899" transform="rotate(-66.001)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="-35.32567" y="28.63774" transform="rotate(-79)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="-35.32567" y="28.63774" transform="rotate(-79)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<rect x="-35.32567" y="28.63774" transform="rotate(-79)" width="4" height="20" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+<path d="M18.731,26.252l1.839,0.789" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="miter"></path>
+<path d="M20.96,21.789l1.734,0.995" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="miter"></path>
+<path d="M23.675,17.604l1.608,1.188" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="miter"></path>
+<path d="M26.841,13.747l1.462,1.365" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="miter"></path>
+<path d="M30.472,10.323l1.296,1.524" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="miter"></path>
+<path d="M34.461,7.328l1.112,1.662" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="miter"></path>
+<path d="M38.761,4.799l0.913,1.779" fill="none" stroke="#8d6c9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="miter"></path>
+</g>
+</g>
+</svg>
