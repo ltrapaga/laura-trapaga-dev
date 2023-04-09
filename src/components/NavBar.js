@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import { HashLink } from "react-router-hash-link";
+import { BrowserRouter as Router } from "react-router-dom";
+
 import stackOverflowIcon from "../assets/img/stackOverflowIcon.svg";
 import linkedInIcon from "../assets/img/linkedInIcon.svg";
 import githubIcon from "../assets/img/githubIcon.svg";
-import { HashLink } from "react-router-hash-link";
-import { BrowserRouter as Router } from "react-router-dom";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -69,6 +70,15 @@ export const NavBar = () => {
                 onClick={() => onUpdateActiveLink("projects")}
               >
                 Projects
+              </Nav.Link>
+              <Nav.Link
+                href="#resume"
+                className={
+                  activeLink === "resume" ? "active navbar-link" : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("resume")}
+              >
+                Resume
               </Nav.Link>
             </Nav>
             <span className="navbar-text">
