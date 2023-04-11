@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  font-weight: 400;
+  font-weight: 500;
   color: #fff !important;
   background-color: #121212 !important;
   font-family: "Centra", sans-serif !important;
@@ -63,8 +63,7 @@ a:hover {
 }
 
 img {
-  width: 75%;
-  border-radius: 50%;
+  width: 100%;
   height: auto;
 }
 
@@ -111,7 +110,7 @@ nav.navbar a.navbar-brand {
   width: 9%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
-  font-weight: 400;
+  font-weight: 500;
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
@@ -237,7 +236,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .home {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/homeBackground.jpg');
+  background-image: url('./assets/img/bgHome.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -259,9 +258,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+  color:#121212
 }
 .home p {
-  color: #fff;
+  color:#121212;
+  font-weight: 500;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -301,4 +302,61 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+}
+
+/************ Projects Styling ************/
+.project {
+  padding: 80px 0;
+  position: relative;
+  background-size: cover;
+}
+.project h2 {
+	font-size: 45px;
+	font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.proj-imgbx {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.proj-imgbx::before {
+  content: "";
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  opacity: 0.85;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  transition: 0.4s ease-in-out;
+}
+.proj-imgbx:hover::before {
+  height: 100%;
+}
+.proj-txtx {
+  position: absolute;
+  text-align: center;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  width: 100%;
+}
+.proj-imgbx:hover .proj-txtx {
+  top: 50%;
+  opacity: 1;
+}
+.proj-txtx h4 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+}
+.proj-txtx span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px;
 }

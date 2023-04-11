@@ -12,9 +12,9 @@ export const Home = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const toRotate = [
-    "Fullstack Developer",
-    "Frontend Developer",
-    "Backend Developer",
+    "Full-Stack Developer",
+    "Front-End Developer",
+    "Back-End Developer",
   ];
   const period = 2000;
 
@@ -69,10 +69,10 @@ export const Home = () => {
                 >
                   <span className="welcome">Welcome to my Portfolio</span>
                   <h1>
-                    {`Hello! I'm Laura, `}
+                    {`Hi! I'm Laura, `}
                     <span
                       className="txt-rotate"
-                      dataPeriod="1000"
+                      dataperiod="1000"
                       data-rotate='[ "Fullstack Developer", "Frontend Developer", "Backend Developer" ]'
                     >
                       <span className="wrap">{text}</span>
@@ -87,7 +87,7 @@ export const Home = () => {
                     culpa qui officia deserunt mollit anim id est laborum.
                   </p>
                   <button onClick={() => console.log("connect")}>
-                    Connect with Me
+                    Connect With Me
                     <ArrowRightCircle size={25} />
                   </button>
                 </div>
