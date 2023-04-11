@@ -78,14 +78,16 @@ export const Home = () => {
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                    culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
+                    <p>
+                      Welcome! My name is Laura Trapaga and I am full-stack web developer. 
+                      I have many passions such as gaming, flying airplanes, and just about 
+                      any activity outdoors with my dog! In search of a career change, I 
+                      signed up the Full Stack Coding Bootcamp at Georgia Tech, from which I 
+                      recently graduated. I am thrilled to now have the knowledge to confidently 
+                      enter an industry that challenges me, while also bringing 
+                      me joy and inspiration. Stay tuned as my coding experience and portfolio 
+                      continue to grow!
+                    </p>
                   <button onClick={() => console.log("connect")}>
                     Connect With Me
                     <ArrowRightCircle size={25} />

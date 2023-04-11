@@ -19,82 +19,82 @@ export const Projects = () => {
               <div>
                 <Row>
                   <Col size={12} sm={6} md={4}>
-                    <Nav.Link
-                      className="proj-imgbx"
-                      href="https://ltrapaga.github.io/covid19-data-tracker/"
-                    >
-                      <img
-                        src={covidTracker}
-                        alt="COVID-19 Tracker screenshot"
-                      />
+                    <div className="proj-imgbx">
+                      <img src={covidTracker} alt="COVID-19 Tracker screenshot" />
                       <div className="proj-txtx">
-                        <h4>{"COVID-19 Tracker"}</h4>
-                        <span>{"Front-End Application"}</span>
+                        <Nav.Link href="https://ltrapaga.github.io/covid19-data-tracker/">
+                          <h4>{"COVID-19 Tracker"}</h4>
+                        </Nav.Link>
+                        <Nav.Link href="https://github.com/ltrapaga/covid19-data-tracker">
+                          <span>GitHub Repository</span>
+                        </Nav.Link>
                       </div>
-                    </Nav.Link>
+                    </div>
                   </Col>
                   <Col size={12} sm={6} md={4}>
-                    <Nav.Link
-                      className="proj-imgbx"
-                      href="https://ltrapaga.github.io/lauras-coding-quiz/"
-                    >
+                    <div className="proj-imgbx">
                       <img src={codingQuiz} alt="Coding Quiz screenshot" />
                       <div className="proj-txtx">
-                        <h4>{"Coding Quiz"}</h4>
-                        <span>{"Front-End Application"}</span>
+                        <Nav.Link href="https://ltrapaga.github.io/lauras-coding-quiz/">
+                          <h4>{"Coding Quiz"}</h4>
+                        </Nav.Link>
+                        <Nav.Link href="https://github.com/ltrapaga/lauras-coding-quiz">
+                          <span>GitHub Repository</span>
+                        </Nav.Link>
                       </div>
-                    </Nav.Link>
+                    </div>
                   </Col>
                   <Col size={12} sm={6} md={4}>
-                    <Nav.Link
-                      className="proj-imgbx"
-                      href="https://lauras-note-taker.herokuapp.com/"
-                    >
+                    <div className="proj-imgbx">
                       <img src={noteTaker} alt="Note Taker screenshot" />
                       <div className="proj-txtx">
-                        <h4>{"Note Taker"}</h4>
-                        <span>{"Full-Stack Application"}</span>
+                        <Nav.Link href="https://lauras-note-taker.herokuapp.com/">
+                          <h4>{"Note Taker"}</h4>
+                        </Nav.Link>
+                        <Nav.Link href="https://github.com/ltrapaga/lauras-note-taker">
+                          <span>GitHub Repository</span>
+                        </Nav.Link>
                       </div>
-                    </Nav.Link>
+                    </div>
                   </Col>
                   <Col size={12} sm={6} md={4}>
-                    <Nav.Link
-                      className="proj-imgbx"
-                      href="https://friendly-chatapp.herokuapp.com/login"
-                    >
+                    <div className="proj-imgbx">
                       <img src={friendlyChatApp} alt="Friendly screenshot" />
                       <div className="proj-txtx">
-                        <h4>{'"Friendly" Chat App'}</h4>
-                        <span>{"Full-Stack Application"}</span>
+                        <Nav.Link href="https://friendly-chatapp.herokuapp.com/login">
+                          <h4>{'"Friendly" Chat App'}</h4>
+                        </Nav.Link>
+                        <Nav.Link href="https://github.com/ltrapaga/friendly-chat-app">
+                          <span>GitHub Repository</span>
+                        </Nav.Link>
                       </div>
-                    </Nav.Link>
+                    </div>
                   </Col>
                   <Col size={12} sm={6} md={4}>
-                    <Nav.Link
-                      className="proj-imgbx"
-                      href="https://ltrapaga.github.io/lauras-weather-dashboard/"
-                    >
-                      <img
-                        src={weatherDashboard}
-                        alt="Weather Dashboard screenshot"
-                      />
+                    <div className="proj-imgbx">
+                      <img src={weatherDashboard} alt="Weather Dashboard screenshot" />
                       <div className="proj-txtx">
-                        <h4>{"Weather Dashboard"}</h4>
-                        <span>{"Front-End Application"}</span>
+                        <Nav.Link href="https://ltrapaga.github.io/lauras-weather-dashboard/">
+                          <h4>{"Weather Dashboard"}</h4>
+                        </Nav.Link>
+                        <Nav.Link href="https://github.com/ltrapaga/lauras-weather-dashboard">
+                          <span>GitHub Repository</span>
+                        </Nav.Link>
                       </div>
-                    </Nav.Link>
+                    </div>
                   </Col>
                   <Col size={12} sm={6} md={4}>
-                    <Nav.Link
-                      className="proj-imgbx"
-                      href="https://ltrapaga-tech-blog.herokuapp.com/"
-                    >
+                    <div className="proj-imgbx">
                       <img src={techBlog} alt="The Tech Blog screenshot" />
                       <div className="proj-txtx">
-                        <h4>{"Weather Dashboard"}</h4>
-                        <span>{"Front-End Application"}</span>
+                        <Nav.Link href="https://ltrapaga-tech-blog.herokuapp.com/">
+                          <h4>{"The Tech Blog"}</h4>
+                        </Nav.Link>
+                        <Nav.Link href="https://github.com/ltrapaga/lauras-tech-blog">
+                          <span>GitHub Repository</span>
+                        </Nav.Link>
                       </div>
-                    </Nav.Link>
+                    </div>
                   </Col>
                 </Row>
               </div>
