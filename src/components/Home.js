@@ -89,7 +89,7 @@ export const Home = () => {
                       continue to grow!
                     </p>
                   <button onClick={() => console.log("connect")}>
-                    Connect With Me
+                  <a href="mailto:lbtrapaga@gmail.com">Connect With Me</a>
                     <ArrowRightCircle size={25} />
                   </button>
                 </div>

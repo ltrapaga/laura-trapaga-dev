@@ -22,10 +22,12 @@ export const Projects = () => {
                     <div className="proj-imgbx">
                       <img src={covidTracker} alt="COVID-19 Tracker screenshot" />
                       <div className="proj-txtx">
-                        <Nav.Link href="https://ltrapaga.github.io/covid19-data-tracker/">
-                          <h4>{"COVID-19 Tracker"}</h4>
+                        <h4>{"COVID-19 Tracker"}</h4>
+                        <br />
+                        <Nav.Link href="https://ltrapaga.github.io/covid19-data-tracker/" target="blank">
+                         <span>Deployed Application</span>
                         </Nav.Link>
-                        <Nav.Link href="https://github.com/ltrapaga/covid19-data-tracker">
+                        <Nav.Link href="https://github.com/ltrapaga/covid19-data-tracker" target="blank">
                           <span>GitHub Repository</span>
                         </Nav.Link>
                       </div>
@@ -35,10 +37,12 @@ export const Projects = () => {
                     <div className="proj-imgbx">
                       <img src={codingQuiz} alt="Coding Quiz screenshot" />
                       <div className="proj-txtx">
-                        <Nav.Link href="https://ltrapaga.github.io/lauras-coding-quiz/">
-                          <h4>{"Coding Quiz"}</h4>
+                        <h4>{"Coding Quiz"}</h4>
+                        <br />
+                        <Nav.Link href="https://ltrapaga.github.io/lauras-coding-quiz/" target="blank">
+                          <span>Deployed Application</span>
                         </Nav.Link>
-                        <Nav.Link href="https://github.com/ltrapaga/lauras-coding-quiz">
+                        <Nav.Link href="https://github.com/ltrapaga/lauras-coding-quiz" target="blank">
                           <span>GitHub Repository</span>
                         </Nav.Link>
                       </div>
@@ -48,10 +52,9 @@ export const Projects = () => {
                     <div className="proj-imgbx">
                       <img src={noteTaker} alt="Note Taker screenshot" />
                       <div className="proj-txtx">
-                        <Nav.Link href="https://lauras-note-taker.herokuapp.com/">
                           <h4>{"Note Taker"}</h4>
-                        </Nav.Link>
-                        <Nav.Link href="https://github.com/ltrapaga/lauras-note-taker">
+                          <br />
+                        <Nav.Link href="https://github.com/ltrapaga/lauras-note-taker" target="blank">
                           <span>GitHub Repository</span>
                         </Nav.Link>
                       </div>
@@ -61,10 +64,9 @@ export const Projects = () => {
                     <div className="proj-imgbx">
                       <img src={friendlyChatApp} alt="Friendly screenshot" />
                       <div className="proj-txtx">
-                        <Nav.Link href="https://friendly-chatapp.herokuapp.com/login">
                           <h4>{'"Friendly" Chat App'}</h4>
-                        </Nav.Link>
-                        <Nav.Link href="https://github.com/ltrapaga/friendly-chat-app">
+                          <br />
+                        <Nav.Link href="https://github.com/ltrapaga/friendly-chat-app" target="blank">
                           <span>GitHub Repository</span>
                         </Nav.Link>
                       </div>
@@ -74,10 +76,12 @@ export const Projects = () => {
                     <div className="proj-imgbx">
                       <img src={weatherDashboard} alt="Weather Dashboard screenshot" />
                       <div className="proj-txtx">
-                        <Nav.Link href="https://ltrapaga.github.io/lauras-weather-dashboard/">
-                          <h4>{"Weather Dashboard"}</h4>
+                      <h4>{"Weather Dashboard"}</h4>
+                      <br />
+                        <Nav.Link href="https://ltrapaga.github.io/lauras-weather-dashboard/" target="blank">
+                          <span>Deployed Application</span>
                         </Nav.Link>
-                        <Nav.Link href="https://github.com/ltrapaga/lauras-weather-dashboard">
+                        <Nav.Link href="https://github.com/ltrapaga/lauras-weather-dashboard" target="blank">
                           <span>GitHub Repository</span>
                         </Nav.Link>
                       </div>
@@ -87,10 +91,9 @@ export const Projects = () => {
                     <div className="proj-imgbx">
                       <img src={techBlog} alt="The Tech Blog screenshot" />
                       <div className="proj-txtx">
-                        <Nav.Link href="https://ltrapaga-tech-blog.herokuapp.com/">
                           <h4>{"The Tech Blog"}</h4>
-                        </Nav.Link>
-                        <Nav.Link href="https://github.com/ltrapaga/lauras-tech-blog">
+                          <br />
+                        <Nav.Link href="https://github.com/ltrapaga/lauras-tech-blog" target="blank">
                           <span>GitHub Repository</span>
                         </Nav.Link>
                       </div>

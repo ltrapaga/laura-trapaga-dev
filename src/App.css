@@ -16,6 +16,10 @@
 }
 
 /************ Default Styling ************/
+:root {
+  --main-background-color:#fff;
+  --main-font-color: #121212;
+}
 * {
   margin: 0;
   padding: 0;
@@ -29,8 +33,8 @@ html {
 
 body {
   font-weight: 500;
-  color: #fff !important;
-  background-color: #121212 !important;
+  color: var(--main-font-color) !important;
+  background-color: var(--main-background-color) !important;
   font-family: "Centra", sans-serif !important;
   overflow-x: hidden;
   position: relative;
@@ -104,14 +108,14 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: var(--main-background-color);
 }
 nav.navbar a.navbar-brand {
   width: 9%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 500;
-  color: #fff !important;
+  color: --var(--main-font-color) !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
@@ -154,7 +158,7 @@ span.navbar-text {
 }
 .navbar-text button {
   font-weight: 700;
-  color: #fff;
+  color: --var(--main-font-color);
   border: 1px solid #fff;
   padding: 18px 34px;
   font-size: 18px;
@@ -171,14 +175,14 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: #fff;
+  background-color: var(--main-background-color);
   left: 0;
   top: 0;
   z-index: -1;
   transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
-  color: #121212;
+  color: --var(--main-font-color);
 }
 .navbar-text button:hover::before {
   content: "";
@@ -208,7 +212,7 @@ nav.navbar .navbar-toggler-icon:before {
   width: 24px;
   position: absolute;
   height: 2px;
-  background-color: #fff;
+  background-color: var(--main-background-color);
   top: 0;
   left: 0;
   content: "";
@@ -220,12 +224,12 @@ nav.navbar .navbar-toggler-icon:after {
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   transform: rotate(45deg);
-  background-color: #fff;
+  background-color: var(--main-background-color);
   height: 2px;
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   transform: translateY(8px) rotate(-45deg);
-  background-color: #fff;
+  background-color: var(--main-background-color);
   height: 2px;
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
@@ -236,7 +240,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .home {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/bgHome.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -337,6 +340,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-txtx {
   position: absolute;
   text-align: center;
+  color: var(--main-background-color);
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -357,77 +361,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 0.8px;
-}
-
-/************ Contact Styling ************/
-.contact {
-  padding: 60px 0 200px 0;
-}
-.contact img {
-  width: 92%;
-}
-.contact h2 {
-	font-size: 45px;
-	font-weight: 700;
-  margin-bottom: 30px;
-}
-.contact form input, .contact form textarea {
-  width: 100%;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 20px;
-  color: #fff;
-  margin: 0 0 8px 0;
-  padding: 18px 26px;
-  font-weight: 500;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  transition: 0.3s ease-in-out;
-}
-.contact form input:focus, .contact form textarea:focus {
-  background: rgba(255, 255, 255, 1);
-  color: #121212;
-}
-.contact form input::placeholder, .contact form textarea::placeholder {
-  font-size: 16px;
-  font-weight: 400;
-  color: #fff;
-}
-.contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
-  color: #121212;
-  opacity: 0.8;
-}
-.contact form button {
-  font-weight: 700;
-  color: #000;
-  background-color: #fff;
-  padding: 14px 48px;
-  font-size: 18px;
-  margin-top: 25px;
-  border-radius: 0;
-  position: relative;
-  transition: 0.3s ease-in-out;
-}
-.contact form button span {
-  z-index: 1;
-  position: relative;
-}
-.contact form button:hover {
-  color: #fff;
-}
-.contact form button::before {
-  content: "";
-  background: #121212;
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  transition: 0.3s ease-in-out;
-}
-.contact form button:hover::before {
-  width: 100%;
 }

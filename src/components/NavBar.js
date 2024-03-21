@@ -3,7 +3,6 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 
-import stackOverflowIcon from "../assets/img/stackOverflowIcon.svg";
 import linkedInIcon from "../assets/img/linkedInIcon.svg";
 import githubIcon from "../assets/img/githubIcon.svg";
 
@@ -63,7 +62,8 @@ export const NavBar = () => {
                 Projects
               </Nav.Link>
               <Nav.Link
-                href="#resume"
+                href="https://drive.google.com/file/d/1V9HsvJLhzFyMd9v_VSa8byHvX1sFoUeX/view?usp=sharing&export=download"
+                target="_blank"
                 className={
                   activeLink === "resume" ? "active navbar-link" : "navbar-link"
                 }
@@ -74,9 +74,6 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-media-icon">
-                <a href="https://stackoverflow.com/users/21559321/987ltrap?tab=profile">
-                  <img src={stackOverflowIcon} alt="" />
-                </a>
                 <a href="https://www.linkedin.com/in/laura-trapaga-285852262/">
                   <img src={linkedInIcon} alt="" />
                 </a>
@@ -84,11 +81,9 @@ export const NavBar = () => {
                   <img src={githubIcon} alt="" />
                 </a>
               </div>
-              <HashLink to="#connect">
-                <button className="vvd">
-                  <span>Connect With Me</span>
+                <button className="navbar-connect-button">
+                  <a href="mailto:lbtrapaga@gmail.com">Connect With Me</a>
                 </button>
-              </HashLink>
             </span>
           </Navbar.Collapse>
         </Container>
