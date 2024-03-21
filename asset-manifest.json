@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/lauras-react-portfolio/static/css/main.a4e954c2.css",
-    "main.js": "/lauras-react-portfolio/static/js/main.b3de226e.js",
+    "main.css": "/lauras-react-portfolio/static/css/main.9af13944.css",
+    "main.js": "/lauras-react-portfolio/static/js/main.f61b6b22.js",
     "static/js/496.d37ebce9.chunk.js": "/lauras-react-portfolio/static/js/496.d37ebce9.chunk.js",
     "static/media/covidTracker.jpg": "/lauras-react-portfolio/static/media/covidTracker.69e48dcb63c38da68ba4.jpg",
     "static/media/weatherDashboard.jpg": "/lauras-react-portfolio/static/media/weatherDashboard.6d216e0f1bd719871b1a.jpg",
-    "static/media/bgHome.jpg": "/lauras-react-portfolio/static/media/bgHome.989323be76dea1f93388.jpg",
     "static/media/techBlog.jpg": "/lauras-react-portfolio/static/media/techBlog.dfab2c1674e9bc37ecf2.jpg",
     "static/media/codingQuiz.jpg": "/lauras-react-portfolio/static/media/codingQuiz.20a8895c2dc19093a454.jpg",
     "static/media/friendlyChatApp.jpg": "/lauras-react-portfolio/static/media/friendlyChatApp.13d68da64c80da91b046.jpg",
@@ -13,17 +12,15 @@
     "static/media/centraBold.ttf": "/lauras-react-portfolio/static/media/centraBold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/centraMedium.ttf": "/lauras-react-portfolio/static/media/centraMedium.f94be5b326d78bb32b95.ttf",
     "static/media/centraBook.ttf": "/lauras-react-portfolio/static/media/centraBook.2b143fa4b734a3584043.ttf",
-    "static/media/contact-img.svg": "/lauras-react-portfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
-    "static/media/stackOverflowIcon.svg": "/lauras-react-portfolio/static/media/stackOverflowIcon.aa93d396d2bb3f213d84e44ee1c64295.svg",
     "static/media/linkedInIcon.svg": "/lauras-react-portfolio/static/media/linkedInIcon.2931d096b5deec27d72b70cead280f4c.svg",
     "static/media/githubIcon.svg": "/lauras-react-portfolio/static/media/githubIcon.2fc489974ec4c0698ac249296122bb85.svg",
     "index.html": "/lauras-react-portfolio/index.html",
-    "main.a4e954c2.css.map": "/lauras-react-portfolio/static/css/main.a4e954c2.css.map",
-    "main.b3de226e.js.map": "/lauras-react-portfolio/static/js/main.b3de226e.js.map",
+    "main.9af13944.css.map": "/lauras-react-portfolio/static/css/main.9af13944.css.map",
+    "main.f61b6b22.js.map": "/lauras-react-portfolio/static/js/main.f61b6b22.js.map",
     "496.d37ebce9.chunk.js.map": "/lauras-react-portfolio/static/js/496.d37ebce9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4e954c2.css",
-    "static/js/main.b3de226e.js"
+    "static/css/main.9af13944.css",
+    "static/js/main.f61b6b22.js"
   ]
 }
