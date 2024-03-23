@@ -62,7 +62,7 @@ export const NavBar = () => {
                 Projects
               </Nav.Link>
               <Nav.Link
-                href="https://drive.google.com/file/d/1V9HsvJLhzFyMd9v_VSa8byHvX1sFoUeX/view?usp=sharing&export=download"
+                href="https://drive.google.com/file/d/18v0bK8Q34tdq2gEIgGlxxqdzUkHtGIne/view?usp=sharing&export=download"
                 target="_blank"
                 className={
                   activeLink === "resume" ? "active navbar-link" : "navbar-link"
