@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lauras-react-portfolio/static/css/main.9af13944.css",
-    "main.js": "/lauras-react-portfolio/static/js/main.f61b6b22.js",
+    "main.js": "/lauras-react-portfolio/static/js/main.a889dd36.js",
     "static/js/496.d37ebce9.chunk.js": "/lauras-react-portfolio/static/js/496.d37ebce9.chunk.js",
     "static/media/covidTracker.jpg": "/lauras-react-portfolio/static/media/covidTracker.69e48dcb63c38da68ba4.jpg",
     "static/media/weatherDashboard.jpg": "/lauras-react-portfolio/static/media/weatherDashboard.6d216e0f1bd719871b1a.jpg",
@@ -16,11 +16,11 @@
     "static/media/githubIcon.svg": "/lauras-react-portfolio/static/media/githubIcon.2fc489974ec4c0698ac249296122bb85.svg",
     "index.html": "/lauras-react-portfolio/index.html",
     "main.9af13944.css.map": "/lauras-react-portfolio/static/css/main.9af13944.css.map",
-    "main.f61b6b22.js.map": "/lauras-react-portfolio/static/js/main.f61b6b22.js.map",
+    "main.a889dd36.js.map": "/lauras-react-portfolio/static/js/main.a889dd36.js.map",
     "496.d37ebce9.chunk.js.map": "/lauras-react-portfolio/static/js/496.d37ebce9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9af13944.css",
-    "static/js/main.f61b6b22.js"
+    "static/js/main.a889dd36.js"
   ]
 }
