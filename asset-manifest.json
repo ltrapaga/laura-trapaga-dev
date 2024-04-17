@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/lauras-react-portfolio/static/css/main.9af13944.css",
-    "main.js": "/lauras-react-portfolio/static/js/main.a889dd36.js",
-    "static/js/496.d37ebce9.chunk.js": "/lauras-react-portfolio/static/js/496.d37ebce9.chunk.js",
-    "static/media/covidTracker.jpg": "/lauras-react-portfolio/static/media/covidTracker.69e48dcb63c38da68ba4.jpg",
-    "static/media/weatherDashboard.jpg": "/lauras-react-portfolio/static/media/weatherDashboard.6d216e0f1bd719871b1a.jpg",
-    "static/media/techBlog.jpg": "/lauras-react-portfolio/static/media/techBlog.dfab2c1674e9bc37ecf2.jpg",
-    "static/media/codingQuiz.jpg": "/lauras-react-portfolio/static/media/codingQuiz.20a8895c2dc19093a454.jpg",
-    "static/media/friendlyChatApp.jpg": "/lauras-react-portfolio/static/media/friendlyChatApp.13d68da64c80da91b046.jpg",
-    "static/media/noteTaker.jpg": "/lauras-react-portfolio/static/media/noteTaker.b1283b9a4cd37765e14e.jpg",
-    "static/media/centraBold.ttf": "/lauras-react-portfolio/static/media/centraBold.2faff7f7d3fc92a2fcd9.ttf",
-    "static/media/centraMedium.ttf": "/lauras-react-portfolio/static/media/centraMedium.f94be5b326d78bb32b95.ttf",
-    "static/media/centraBook.ttf": "/lauras-react-portfolio/static/media/centraBook.2b143fa4b734a3584043.ttf",
-    "static/media/linkedInIcon.svg": "/lauras-react-portfolio/static/media/linkedInIcon.2931d096b5deec27d72b70cead280f4c.svg",
-    "static/media/githubIcon.svg": "/lauras-react-portfolio/static/media/githubIcon.2fc489974ec4c0698ac249296122bb85.svg",
-    "index.html": "/lauras-react-portfolio/index.html",
-    "main.9af13944.css.map": "/lauras-react-portfolio/static/css/main.9af13944.css.map",
-    "main.a889dd36.js.map": "/lauras-react-portfolio/static/js/main.a889dd36.js.map",
-    "496.d37ebce9.chunk.js.map": "/lauras-react-portfolio/static/js/496.d37ebce9.chunk.js.map"
+    "main.css": "/laura-trapaga-dev/static/css/main.cc9b1e05.css",
+    "main.js": "/laura-trapaga-dev/static/js/main.61b413be.js",
+    "static/js/496.e725f5ca.chunk.js": "/laura-trapaga-dev/static/js/496.e725f5ca.chunk.js",
+    "static/media/covidTracker.jpg": "/laura-trapaga-dev/static/media/covidTracker.69e48dcb63c38da68ba4.jpg",
+    "static/media/weatherDashboard.jpg": "/laura-trapaga-dev/static/media/weatherDashboard.6d216e0f1bd719871b1a.jpg",
+    "static/media/techBlog.jpg": "/laura-trapaga-dev/static/media/techBlog.dfab2c1674e9bc37ecf2.jpg",
+    "static/media/codingQuiz.jpg": "/laura-trapaga-dev/static/media/codingQuiz.20a8895c2dc19093a454.jpg",
+    "static/media/friendlyChatApp.jpg": "/laura-trapaga-dev/static/media/friendlyChatApp.13d68da64c80da91b046.jpg",
+    "static/media/noteTaker.jpg": "/laura-trapaga-dev/static/media/noteTaker.b1283b9a4cd37765e14e.jpg",
+    "static/media/centraBold.ttf": "/laura-trapaga-dev/static/media/centraBold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/centraMedium.ttf": "/laura-trapaga-dev/static/media/centraMedium.f94be5b326d78bb32b95.ttf",
+    "static/media/centraBook.ttf": "/laura-trapaga-dev/static/media/centraBook.2b143fa4b734a3584043.ttf",
+    "static/media/linkedInIcon.svg": "/laura-trapaga-dev/static/media/linkedInIcon.2931d096b5deec27d72b70cead280f4c.svg",
+    "static/media/githubIcon.svg": "/laura-trapaga-dev/static/media/githubIcon.2fc489974ec4c0698ac249296122bb85.svg",
+    "index.html": "/laura-trapaga-dev/index.html",
+    "main.cc9b1e05.css.map": "/laura-trapaga-dev/static/css/main.cc9b1e05.css.map",
+    "main.61b413be.js.map": "/laura-trapaga-dev/static/js/main.61b413be.js.map",
+    "496.e725f5ca.chunk.js.map": "/laura-trapaga-dev/static/js/496.e725f5ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9af13944.css",
-    "static/js/main.a889dd36.js"
+    "static/css/main.cc9b1e05.css",
+    "static/js/main.61b413be.js"
   ]
 }
