@@ -272,7 +272,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 90%;
 }
 .home button {
-  color: black;
   font-weight: 700;
   font-size: 20px;
   margin-top: 60px;
@@ -288,6 +287,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .home button:hover svg {
   margin-left: 25px;
+}
+.home button:visited {
+  color: #fff;
 }
 .home img {
   animation: updown 3s linear infinite;

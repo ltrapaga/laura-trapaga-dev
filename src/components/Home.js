@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-//import selfPortrait from "../assets/img/selfPortrait.jpg";
 
 export const Home = () => {
   const [loop, setloop] = useState(0);
@@ -13,7 +12,6 @@ export const Home = () => {
   const [index, setIndex] = useState(1);
   const toRotate = [
     "Full-Stack Developer",
-    "Front-End Developer",
     "Back-End Developer",
   ];
   const period = 2000;
@@ -73,7 +71,7 @@ export const Home = () => {
                     <span
                       className="txt-rotate"
                       dataperiod="1000"
-                      data-rotate='[ "Fullstack Developer", "Frontend Developer", "Backend Developer" ]'
+                      data-rotate='[ "Fullstack Developer", "Backend Developer" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
@@ -89,7 +87,7 @@ export const Home = () => {
                       continue to grow!
                     </p>
                   <button onClick={() => console.log("connect")}>
-                  <a href="mailto:lbtrapaga@gmail.com">Connect With Me</a>
+                  <a href="mailto:lbtrapaga@gmail.com" style={{textDecoration: 'none', color: 'black'}}>Connect With Me</a>
                     <ArrowRightCircle size={25} />
                   </button>
                 </div>

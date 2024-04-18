@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 
 import linkedInIcon from "../assets/img/linkedInIcon.svg";
@@ -34,7 +33,6 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            {/* TODO: <img src={logo} alt="Logo" />*/}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -74,15 +72,15 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-media-icon">
-                <a href="https://www.linkedin.com/in/laura-trapaga-285852262/">
+                <a href="https://www.linkedin.com/in/laura-trapaga-285852262/" target="_blank">
                   <img src={linkedInIcon} alt="" />
                 </a>
-                <a href="https://github.com/ltrapaga?tab=repositories">
+                <a href="https://github.com/ltrapaga?tab=repositories" target="_blank">
                   <img src={githubIcon} alt="" />
                 </a>
               </div>
                 <button className="navbar-connect-button">
-                  <a href="mailto:lbtrapaga@gmail.com">Connect With Me</a>
+                  <a href="mailto:lbtrapaga@gmail.com" style={{textDecoration: 'none'}}>Connect With Me</a>
                 </button>
             </span>
           </Navbar.Collapse>
